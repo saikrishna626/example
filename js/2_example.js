@@ -1,0 +1,22 @@
+let ar=[2,"hai",true,null,false,"good",4]
+console.log(typeof(ar));
+console.log(ar.length);
+console.log(ar[5]);
+console.log(ar.indexOf("good"));
+console.log();
+ar.push(11);
+console.log(ar);
+ar.pop();
+console.log(ar);
+ar.shift();
+console.log(ar);
+ar[1]="hello"
+console.log(ar);
+ar[ar.indexOf("hai")]="better"
+console.log(ar);
+ar.splice(2,1)
+console.log(ar);
+ar.splice(ar.indexOf(false),1)
+console.log(ar);
+console.log(ar.slice(2,3),2);
+console.log(ar.reverse());
